@@ -1,9 +1,10 @@
 import GlobalStyle from './styles/global'
+import RoutesApp from './routes'
 
-const App = () => {
+function App() {
     return(
         <>
-        <div>App</div>
+        <RoutesApp />
         <GlobalStyle />
         </>  
     )
