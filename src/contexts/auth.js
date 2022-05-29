@@ -62,7 +62,7 @@ export const AuthProvider = ({ children }) => {
   const signout = () => {
     setUser(null)
     localStorage.removeItem("user_token")
-  };
+  }
 
   return (
     <AuthContext.Provider
@@ -70,5 +70,5 @@ export const AuthProvider = ({ children }) => {
     >
       {children}
     </AuthContext.Provider>
-  );
-};
+  )
+}
