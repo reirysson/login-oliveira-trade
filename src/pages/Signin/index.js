@@ -5,7 +5,7 @@ import * as C from './styles'
 import { Link, useNavigate } from 'react-router-dom'
 import useAuth from '../../hooks/useAuth'
 
-function Signin(){
+function Signin() {
   const { signin } = useAuth()
   const navigate = useNavigate()
 

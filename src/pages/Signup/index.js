@@ -5,7 +5,7 @@ import * as C from "./styles"
 import { Link, useNavigate } from "react-router-dom"
 import useAuth from "../../hooks/useAuth"
 
-const Signup = () => {
+function Signup() {
   const [email, setEmail] = useState("")
   const [emailConf, setEmailConf] = useState("")
   const [senha, setSenha] = useState("")
